@@ -12,7 +12,7 @@ export async function getPlayerStats(name: string, signal: AbortSignal): Promise
     const response = await fetch(`/api/players?${new URLSearchParams({name})}`, {signal});
     const data = await response.json();
     if (!response.ok) throw new Error(data.error ?? 'Could not load player stats.');
-    if (typeof data.totalLevel !== 'number' || typeof data.totalXp !== 'number' || !data.skills) {
+    if (typeof data.totalLevel !== 'number' || !data.skills) {
         throw new Error('Invalid player stats response.');
     }
     return data;
