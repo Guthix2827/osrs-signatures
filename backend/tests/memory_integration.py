@@ -17,7 +17,7 @@ with tempfile.TemporaryDirectory() as temporary:
     names=['attack','strength','defence','hitpoints','ranged','prayer','magic','cooking',
         'woodcutting','fletching','fishing','firemaking','crafting','smithing','mining',
         'herblore','agility','thieving','slayer','farming','runecraft','hunter','construction','sailing']
-    stats={'name':'Zezima','fetchedAt':0,'totalLevel':2376,'totalXp':4600000000,'overallRank':None,
+    stats={'name':'Zezima','fetchedAt':0,'totalLevel':2376,'overallRank':None,
         'skills':{name:{'level':99,'xp':200000000,'rank':1} for name in names}}
     fixture.write_text(json.dumps(stats)); clock.write_text('100')
     log=(directory/'server.log').open('w')

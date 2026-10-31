@@ -5,8 +5,7 @@
 #include <atomic>
 
 Json fixtureStats() {
-    Json stats = {{"name", "Zezima"}, {"fetchedAt", 0}, {"totalLevel", 2173},
-        {"totalXp", 287400000}, {"overallRank", nullptr}, {"skills", Json::object()}};
+    Json stats = {{"name", "Zezima"}, {"fetchedAt", 0}, {"totalLevel", 2173}, {"overallRank", nullptr}, {"skills", Json::object()}};
     for (const char* name : signature::skills) {
         stats["skills"][toLowercase(name)] = {{"level", 99}, {"xp", 13034431}, {"rank", 1}};
     }

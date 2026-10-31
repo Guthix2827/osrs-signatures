@@ -630,7 +630,7 @@ std::string artworkKey(const Json& configuration, const Json& stats) {
         levels[skill.key()] = skill.value().at("level");
     }
     return Json({{"config", configuration}, {"levels", levels},
-        {"totalLevel", stats.at("totalLevel")}, {"totalXp", stats.at("totalXp")},
+        {"totalLevel", stats.at("totalLevel")},
         {"version", rendererManifest().at("version")}}).dump();
 }
 
