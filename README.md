@@ -4,6 +4,10 @@ An independent **Old School RuneScape (OSRS) signature generator**, developed se
 
 > **Project status:** Local implementation. Docker packaging, production deployment, GitHub publication, and cryptographic signing are **not yet implemented**.
 
+<p align="center">
+  <img src="docs/images/signature-example.png" width="320" alt="signature">
+</p>
+
 ## Technology stack
 
 | Component | Technology | Status |

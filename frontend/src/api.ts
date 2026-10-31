@@ -5,7 +5,7 @@ export interface PlayerStats {
     fetchedAt: number;
     totalLevel: number;
     overallRank: number | null;
-    skills: Record<string, { level: number | null; xp: number | null; rank: number | null }>;
+    skills: Record<string, { level: number | null; rank: number | null }>;
 }
 
 export async function getPlayerStats(name: string, signal: AbortSignal): Promise<PlayerStats> {
