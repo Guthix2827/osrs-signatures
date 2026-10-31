@@ -1,0 +1,151 @@
+{
+  "cellSize": 32,
+  "height": 128,
+  "icons": {
+    "agility": {
+      "height": 16,
+      "width": 16,
+      "x": 128,
+      "y": 64
+    },
+    "attack": {
+      "height": 16,
+      "width": 16,
+      "x": 0,
+      "y": 0
+    },
+    "construction": {
+      "height": 16,
+      "width": 16,
+      "x": 128,
+      "y": 96
+    },
+    "cooking": {
+      "height": 16,
+      "width": 16,
+      "x": 32,
+      "y": 32
+    },
+    "crafting": {
+      "height": 16,
+      "width": 16,
+      "x": 0,
+      "y": 64
+    },
+    "defence": {
+      "height": 16,
+      "width": 16,
+      "x": 32,
+      "y": 0
+    },
+    "farming": {
+      "height": 16,
+      "width": 16,
+      "x": 32,
+      "y": 96
+    },
+    "firemaking": {
+      "height": 16,
+      "width": 16,
+      "x": 160,
+      "y": 32
+    },
+    "fishing": {
+      "height": 16,
+      "width": 16,
+      "x": 128,
+      "y": 32
+    },
+    "fletching": {
+      "height": 16,
+      "width": 16,
+      "x": 96,
+      "y": 32
+    },
+    "herblore": {
+      "height": 16,
+      "width": 16,
+      "x": 96,
+      "y": 64
+    },
+    "hitpoints": {
+      "height": 16,
+      "width": 16,
+      "x": 96,
+      "y": 0
+    },
+    "hunter": {
+      "height": 16,
+      "width": 16,
+      "x": 96,
+      "y": 96
+    },
+    "magic": {
+      "height": 16,
+      "width": 16,
+      "x": 0,
+      "y": 32
+    },
+    "mining": {
+      "height": 16,
+      "width": 16,
+      "x": 64,
+      "y": 64
+    },
+    "prayer": {
+      "height": 16,
+      "width": 16,
+      "x": 160,
+      "y": 0
+    },
+    "ranged": {
+      "height": 18,
+      "width": 18,
+      "x": 128,
+      "y": 0
+    },
+    "runecraft": {
+      "height": 16,
+      "width": 16,
+      "x": 64,
+      "y": 96
+    },
+    "sailing": {
+      "height": 16,
+      "width": 16,
+      "x": 160,
+      "y": 96
+    },
+    "slayer": {
+      "height": 16,
+      "width": 16,
+      "x": 0,
+      "y": 96
+    },
+    "smithing": {
+      "height": 16,
+      "width": 16,
+      "x": 32,
+      "y": 64
+    },
+    "strength": {
+      "height": 16,
+      "width": 16,
+      "x": 64,
+      "y": 0
+    },
+    "thieving": {
+      "height": 16,
+      "width": 16,
+      "x": 160,
+      "y": 64
+    },
+    "woodcutting": {
+      "height": 16,
+      "width": 16,
+      "x": 64,
+      "y": 32
+    }
+  },
+  "width": 192
+}

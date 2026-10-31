@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'RuneScape Plain';
+    src: url('./fonts/RuneScape-Plain-12.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RuneScape Bold';
+    src: url('./fonts/RuneScape-Bold-12.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.signature {
+    position: relative;
+    isolation: isolate;
+    width: 320px;
+    height: 125px;
+    flex: none;
+    overflow: hidden;
+    background: linear-gradient(
+            135deg,
+            var(--light) 0%,
+            var(--mid) 58%,
+            var(--dark) 100%
+    );
+    color: #fff;
+    font-family: 'RuneScape Plain', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    font-synthesis: none;
+    image-rendering: pixelated;
+}
+
+.signature.blue {
+    --light: #8edcff;
+    --mid: #459ee8;
+    --dark: #3264c7;
+}
+
+.signature.green {
+    --light: #c0ed7c;
+    --mid: #79c94b;
+    --dark: #35934e;
+}
+
+.signature.red {
+    --light: #ffad87;
+    --mid: #ed625b;
+    --dark: #c73550;
+}
+
+/* Six columns above; the final three rows leave room for player details. */
+.signature .skill-grid {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 44px);
+    grid-template-rows: repeat(5, 22px);
+    grid-auto-flow: row;
+    gap: 0;
+}
+
+/* Fixed icon slot + 6px gap + fixed number slot keeps every pair aligned. */
+.signature .skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 42px;
+    height: 22px;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.signature .skill img {
+    display: block;
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
+
+.signature .skill span {
+    display: block;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'RuneScape Plain', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.signature .skill .skill-level {
+    position: relative;
+    isolation: isolate;
+    font-family: 'RuneScape Plain', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+}
+
+.signature .skill .skill-level::before {
+    content: attr(data-level);
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: -1;
+    color: #000;
+    pointer-events: none;
+}
+
+.signature .shadow-text {
+    position: relative;
+    isolation: isolate;
+    display: inline-block;
+}
+
+.signature .shadow-text::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: -1;
+    color: #000;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+/* Positions correspond to the existing main.tsx skills array. */
+.signature .skill:nth-child(1)  { grid-area: 1 / 1; } /* Attack */
+.signature .skill:nth-child(5)  { grid-area: 1 / 2; } /* Prayer */
+.signature .skill:nth-child(11) { grid-area: 1 / 3; } /* Mining */
+.signature .skill:nth-child(8)  { grid-area: 1 / 4; } /* Herblore */
+.signature .skill:nth-child(23) { grid-area: 1 / 5; } /* Hunter */
+.signature .skill:nth-child(22) { grid-area: 1 / 6; } /* Construction */
+
+.signature .skill:nth-child(2)  { grid-area: 2 / 1; } /* Strength */
+.signature .skill:nth-child(16) { grid-area: 2 / 2; } /* Magic */
+.signature .skill:nth-child(15) { grid-area: 2 / 3; } /* Firemaking */
+.signature .skill:nth-child(7)  { grid-area: 2 / 4; } /* Agility */
+.signature .skill:nth-child(20) { grid-area: 2 / 5; } /* Slayer */
+.signature .skill:nth-child(24) { grid-area: 2 / 6; } /* Sailing */
+
+.signature .skill:nth-child(3)  { grid-area: 3 / 1; } /* Defence */
+.signature .skill:nth-child(19) { grid-area: 3 / 2; } /* Runecraft */
+.signature .skill:nth-child(10) { grid-area: 3 / 3; } /* Crafting */
+.signature .skill:nth-child(9)  { grid-area: 3 / 4; } /* Thieving */
+
+.signature .skill:nth-child(6)  { grid-area: 4 / 1; } /* Hitpoints */
+.signature .skill:nth-child(21) { grid-area: 4 / 2; } /* Farming */
+.signature .skill:nth-child(12) { grid-area: 4 / 3; } /* Smithing */
+.signature .skill:nth-child(14) { grid-area: 4 / 4; } /* Cooking */
+
+.signature .skill:nth-child(4)  { grid-area: 5 / 1; } /* Ranged */
+.signature .skill:nth-child(17) { grid-area: 5 / 2; } /* Fletching */
+.signature .skill:nth-child(13) { grid-area: 5 / 3; } /* Fishing */
+.signature .skill:nth-child(18) { grid-area: 5 / 4; } /* Woodcutting */
+
+.signature .sig-name {
+    position: absolute;
+    top: 50px;
+    left: 188px;
+    right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'RuneScape Plain', sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+
+.signature .sig-summary {
+    position: absolute;
+    top: 80px;
+    left: 189px;
+    right: 5px;
+    bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+    font-family: 'RuneScape Plain', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.signature .character {
+    position: absolute;
+    right: 3px;
+    top: 47px;
+    width: 30px;
+    height: 65px;
+    filter: drop-shadow(1px 1px #1c35586b);
+}

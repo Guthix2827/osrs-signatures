@@ -1,0 +1,12 @@
+{
+  "name": "osrs-signature-renderer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:browser": "playwright install chromium",
+    "test": "node tests/render.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

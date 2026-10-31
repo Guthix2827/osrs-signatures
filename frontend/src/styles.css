@@ -1,0 +1,384 @@
+:root {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: #182238;
+    background: #f4f5f7;
+    font-synthesis: none;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 46px 24px
+}
+
+button, input, select {
+    font: inherit
+}
+
+button {
+    cursor: pointer
+}
+
+a, button, input, select {
+    outline-offset: 4px
+}
+
+*:focus-visible {
+    outline: 2px solid #0864e9
+}
+
+.page {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    border: 1px solid #e0e4eb;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden
+}
+
+header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    border-bottom: 1px solid #e3e7ed
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #192230;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -.35px
+}
+
+.brand span {
+    width: 17px;
+    height: 17px;
+    background: #0865e9;
+    border-radius: 3px
+}
+
+nav {
+    display: flex;
+    gap: 28px
+}
+
+nav button {
+    background: none;
+    border: 0;
+    padding: 9px 0;
+    color: #778194;
+    font-size: 13px;
+    font-weight: 500
+}
+
+nav button.active {
+    color: #0661e9;
+    font-weight: 600
+}
+
+main {
+    padding: 36px 34px 24px
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 1.25;
+    letter-spacing: -.8px;
+    font-weight: 650;
+    margin: 0 0 10px
+}
+
+p {
+    line-height: 1.6
+}
+
+.subtitle {
+    color: #8690a2;
+    font-size: 15px;
+    margin: 0 0 30px
+}
+
+.fields {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #273249
+}
+
+input, select {
+    min-width: 0;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #d4dae4;
+    border-radius: 6px;
+    background: white;
+    padding: 0 13px;
+    color: #35405a;
+    box-shadow: 0 1px 2px #14234404;
+    font-size: 13px
+}
+
+select {
+    padding-right: 26px
+}
+
+input[aria-invalid=true] {
+    border-color: #bb3547
+}
+
+.primary {
+    background: #0863e8;
+    border: 1px solid #0863e8;
+    border-radius: 6px;
+    padding: 12px 24px;
+    min-height: 43px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 20px
+}
+
+.primary:hover {
+    background: #0754c7
+}
+
+.primary:active, .copy:active {
+    transform: translateY(1px)
+}
+
+.preview-section {
+    margin-top: 34px;
+    padding-top: 24px;
+    border-top: 1px solid #e1e6ee
+}
+
+h2 {
+    font-size: 19px;
+    letter-spacing: -.35px;
+    margin: 0 0 4px
+}
+
+.section-caption {
+    margin: 0 0 17px;
+    color: #8590a2;
+    font-size: 14px
+}
+
+.preview {
+    min-height: 205px;
+    padding: 30px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f7f9;
+    border: 1px solid #dce1e8;
+    border-radius: 6px;
+    overflow: auto
+}
+
+.demo-note {
+    font-size: 11px;
+    color: #8a93a2;
+    margin: 9px 0 23px
+}
+
+.share-label {
+    display: block;
+    margin-bottom: 9px
+}
+
+.share-row {
+    display: flex;
+    gap: 12px
+}
+
+.share-row input {
+    flex: 1;
+    font-size: 12px
+}
+
+.copy {
+    height: 43px;
+    border: 1px solid #cfd6e1;
+    border-radius: 6px;
+    background: #f9fafb;
+    padding: 0 20px;
+    color: #29334a;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600
+}
+
+.copy:hover {
+    background: #eff2f7
+}
+
+.share-help {
+    font-size: 11px;
+    color: #8791a1;
+    margin: 9px 0 0
+}
+
+.notice {
+    min-height: 18px;
+    color: #276943;
+    font-size: 12px;
+    margin: 12px 0 0
+}
+
+.error {
+    color: #b32e43;
+    font-size: 12px
+}
+
+footer {
+    padding: 20px 34px;
+    border-top: 1px solid #e3e7ed;
+    font-size: 11px;
+    color: #8a93a1
+}
+
+.about {
+    max-width: 650px;
+    min-height: 450px
+}
+
+.about p {
+    color: #69758a;
+    font-size: 14px
+}
+
+.about h2 {
+    margin-top: 28px
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 0;
+        background: #fff
+    }
+
+    .page {
+        border: 0;
+        border-radius: 0
+    }
+
+    header {
+        padding: 0 20px;
+        height: 64px
+    }
+
+    .brand {
+        font-size: 16px;
+        gap: 9px
+    }
+
+    nav {
+        gap: 18px
+    }
+
+    nav button {
+        font-size: 12px
+    }
+
+    main {
+        padding: 30px 20px 16px
+    }
+
+    h1 {
+        font-size: 25px
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin-bottom: 24px
+    }
+
+    .fields {
+        grid-template-columns:1fr;
+        gap: 17px
+    }
+
+    .primary {
+        width: 100%;
+        margin-top: 20px
+    }
+
+    .preview-section {
+        margin-top: 28px
+    }
+
+    .preview {
+        padding: 25px 8px;
+        min-height: 190px
+    }
+
+    .share-row {
+        gap: 8px
+    }
+
+    .copy {
+        padding: 0 14px;
+        font-size: 12px
+    }
+
+    .share-help {
+        line-height: 1.7
+    }
+
+    footer {
+        padding: 19px 20px;
+        line-height: 1.6
+    }
+
+    .about {
+        min-height: 0
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        padding-left: 12px;
+        padding-right: 12px
+    }
+
+    header {
+        padding: 0 12px
+    }
+
+    .brand {
+        font-size: 14px
+    }
+
+    nav {
+        gap: 13px
+    }
+
+    .preview {
+        justify-content: flex-start
+    }
+
+    .signature {
+        margin: auto
+    }
+}

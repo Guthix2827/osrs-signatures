@@ -1,0 +1,25 @@
+{
+  "name": "osrs-signatures-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "fonts:install": "mkdir -p src/fonts && curl -fL https://github.com/RuneStar/fonts/releases/download/1.103-0/RuneScape-Fonts.zip -o src/fonts/fonts.zip && unzip -jo src/fonts/fonts.zip 'ttf/RuneScape-Plain-11.ttf' 'ttf/RuneScape-Plain-12.ttf' 'ttf/RuneScape-Bold-12.ttf' -d src/fonts && rm src/fonts/fonts.zip",
+    "postinstall": "npm run fonts:install",
+    "build:render":"tsc -b && vite build --config vite.render.config.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.3",
+    "vite": "^6.1.0"
+  }
+}

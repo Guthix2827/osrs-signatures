@@ -1,0 +1,10 @@
+{
+  "version": "ec2fca30c0e36a3693c76fbec5229e28e4a537bebc7b07fe4aa38f724c782dad",
+  "designs": [
+    {
+      "id": "classic",
+      "label": "Classic",
+      "published": true
+    }
+  ]
+}

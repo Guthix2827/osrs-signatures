@@ -1,0 +1,200 @@
+{
+  "sourcePage": "https://secure.runescape.com/m=hiscore_oldschool/overall",
+  "sourceStylesheet": "https://www.runescape.com/css/rsp777_hiscore-128.css",
+  "downloadedAt": "2026-10-27",
+  "conversion": "Original GIFs converted to RGBA PNG without resizing.",
+  "icons": [
+    {
+      "skill": "attack",
+      "file": "attack.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_attack1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "fcdb803b455b42980894130610ca6d3cfa367417eb36438583e8c5354b2a6b79"
+    },
+    {
+      "skill": "defence",
+      "file": "defence.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_defence1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "0250203dd0544c3ca8307ad69c03c5af6c0a3954d8b10638d2b1c9cb4eed11ef"
+    },
+    {
+      "skill": "strength",
+      "file": "strength.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_strength1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "dba360b4af6caa7bda6ab9202ac34960b0a912f81c4af475c30ae8b96257ed8a"
+    },
+    {
+      "skill": "hitpoints",
+      "file": "hitpoints.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_hitpoints1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "00e0ecea311faebaaf5e032ec8c34613a222b0c5ab151d7517b0ea5d42fbc123"
+    },
+    {
+      "skill": "ranged",
+      "file": "ranged.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_ranged1.gif",
+      "width": 18,
+      "height": 18,
+      "sha256": "77d90107ce0e9eb45538eb29479d0c2fea9094861317833dca12489ff8c6245b"
+    },
+    {
+      "skill": "prayer",
+      "file": "prayer.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_prayer1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "dd8d9c92fd5dee0df6d642649c5def8bd577a65cb54b8af20de56d76de50a1dd"
+    },
+    {
+      "skill": "magic",
+      "file": "magic.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_magic1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "b9306a1bfd163598a80b26ce8a9809c8123d18d5438a7453d62b60ce16ce6a9a"
+    },
+    {
+      "skill": "cooking",
+      "file": "cooking.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_cooking1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "de36b458cb548b32a382e87933048cf8d7415a46b6b44f392a7f64a4db14a072"
+    },
+    {
+      "skill": "woodcutting",
+      "file": "woodcutting.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_woodcutting1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "51eff81434ddef33cb35b0b8e9b0da763f6dd264c66886bf1bcbd2c0463cd9ef"
+    },
+    {
+      "skill": "fletching",
+      "file": "fletching.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_fletching1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "f8479f06520eadab0a92e2027e1513cc62f33ef2967d5cd2b777f37c785a0319"
+    },
+    {
+      "skill": "fishing",
+      "file": "fishing.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_fishing1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "a3738d7e50811527e6e34bf0d6a125b71ebf9f2dc0628991d80256ac70df35b1"
+    },
+    {
+      "skill": "firemaking",
+      "file": "firemaking.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_firemaking1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "e6bd2bbc21006354074cab46dee71c5d3467bebb927598c312766f9e7dbc5a15"
+    },
+    {
+      "skill": "crafting",
+      "file": "crafting.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_crafting1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "efa042f54c94da1c23ea7608322a8ee4b8cab05c80a86d475322725ecf727899"
+    },
+    {
+      "skill": "smithing",
+      "file": "smithing.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_smithing1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "31069618e5abb41f4d7b69428de1301b0dce36736194d26e9f8b1d37753c358a"
+    },
+    {
+      "skill": "mining",
+      "file": "mining.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_mining1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "5e533c4f4ebe665084f2852544fa72679e0e6285d131444809591e39834b6912"
+    },
+    {
+      "skill": "herblore",
+      "file": "herblore.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_herblore1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "48557c9fbd0f5800f64e77d22ade6971d7d92cd8498e03f195e2b08b252a7d59"
+    },
+    {
+      "skill": "agility",
+      "file": "agility.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_agility1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "f34ac253bf3d71fcc09566efa1822540cef5d67f1a2948ae3c7664cb8da19cf8"
+    },
+    {
+      "skill": "thieving",
+      "file": "thieving.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_thieving1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "18996dbd322a8f6d753554c3d32e50974113b3f9c0c086f4396adfeadae155ec"
+    },
+    {
+      "skill": "slayer",
+      "file": "slayer.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_slayer1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "c2f0d7d169bd9838fc7a7fed56b5929cc9177470b7a1a27766693db6f24e2991"
+    },
+    {
+      "skill": "farming",
+      "file": "farming.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_farming1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "d5cab8bc9e44152f4ae20bfc845d7e6c56da27c097b7b46068e510b149439771"
+    },
+    {
+      "skill": "runecraft",
+      "file": "runecraft.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_runecraft1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "d9a446b7fc2ee3c60a8c870ae94baa86131c8817f405141687e5733d19abf2ac"
+    },
+    {
+      "skill": "hunter",
+      "file": "hunter.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_hunter1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "9a9a1f91c0b25506fcd206e97bd1d865ab855298ec0d80040e37661ddf76c784"
+    },
+    {
+      "skill": "construction",
+      "file": "construction.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_construction1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "0e9b7c8f79770ecf0f9d1af88f1a65f4a1250c184570a4e3fa0ccb6d560503f6"
+    },
+    {
+      "skill": "sailing",
+      "file": "sailing.png",
+      "sourceUrl": "https://www.runescape.com/img/rsp777/hiscores/skill_icon_sailing1.gif",
+      "width": 16,
+      "height": 16,
+      "sha256": "060f7fdd3780d09f9cb531f7e885fe7f4e13fdea1d1bc770da94d9b42335e17c"
+    }
+  ]
+}

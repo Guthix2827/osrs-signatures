@@ -1,0 +1,199 @@
+{
+  "sourcePage": "https://oldschool.runescape.wiki/w/Skills",
+  "downloadedAt": "2026-10-27",
+  "rights": "Game artwork belongs to Jagex. Downloading does not confer a redistribution license.",
+  "icons": [
+    {
+      "skill": "Attack",
+      "file": "attack.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Attack_icon.png?b4bce",
+      "width": 25,
+      "height": 25,
+      "sha256": "b47da9bb7314fd305d0bb55b0a8a859c1f8f9a2aa452d7a5ad92dcd675d03f67"
+    },
+    {
+      "skill": "Strength",
+      "file": "strength.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Strength_icon.png?e6e0c",
+      "width": 16,
+      "height": 20,
+      "sha256": "7a3e398e90053b46701f5056652dd3cdc7a2099a4e63a092e87328f69c559fd6"
+    },
+    {
+      "skill": "Defence",
+      "file": "defence.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Defence_icon.png?ca0cd",
+      "width": 17,
+      "height": 19,
+      "sha256": "851486643e06dddcc9eb73737f253b339486d3b58ff35a82853e9c655f0a461d"
+    },
+    {
+      "skill": "Ranged",
+      "file": "ranged.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Ranged_icon.png?01b0e",
+      "width": 23,
+      "height": 23,
+      "sha256": "ad58292d271d6d7a8def02e931a2f9fc5ed5f0c5da5ece4656a537806a6d44c6"
+    },
+    {
+      "skill": "Prayer",
+      "file": "prayer.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Prayer_icon.png?7e70b",
+      "width": 23,
+      "height": 23,
+      "sha256": "72c78b560e612f6c0c88901b0caae8ae2edee01f25e8f82113e063b67ca44cd2"
+    },
+    {
+      "skill": "Magic",
+      "file": "magic.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Magic_icon.png?334cf",
+      "width": 25,
+      "height": 23,
+      "sha256": "410d7768300a1cd4244c3cefd4a4d39e4806266df317fca3a974b52c4535c915"
+    },
+    {
+      "skill": "Runecraft",
+      "file": "runecraft.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Runecraft_icon.png?c278c",
+      "width": 25,
+      "height": 25,
+      "sha256": "63eec535f90cd53c485a36bd24aa1f33e0cef681aa53b570079d8641baa5d317"
+    },
+    {
+      "skill": "Hitpoints",
+      "file": "hitpoints.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Hitpoints_icon.png?a4819",
+      "width": 23,
+      "height": 20,
+      "sha256": "2bc12756fd370bde1d28261175878afe7034a095e2879165a99ee2466396a41f"
+    },
+    {
+      "skill": "Crafting",
+      "file": "crafting.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Crafting_icon.png?a1f71",
+      "width": 24,
+      "height": 22,
+      "sha256": "514900a03b5560990dd34facef3ac03398fb16d0e146df67e3c02bd68ce9863b"
+    },
+    {
+      "skill": "Mining",
+      "file": "mining.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Mining_icon.png?00870",
+      "width": 23,
+      "height": 23,
+      "sha256": "c7b37164184461532b764ef0a336dc7360e5eb83a0049a583d1c03b41765fea8"
+    },
+    {
+      "skill": "Smithing",
+      "file": "smithing.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Smithing_icon.png?d26c5",
+      "width": 19,
+      "height": 19,
+      "sha256": "7f13b2f409bbe20e5f1d6b4433e82c3e4f15bf6a4908660a8fc19a0949fdf3b3"
+    },
+    {
+      "skill": "Fishing",
+      "file": "fishing.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Fishing_icon.png?15a98",
+      "width": 24,
+      "height": 23,
+      "sha256": "ceaae4754e78b56d78400b2267810bba1b72464d475cadd3f0f55c10cf837a3b"
+    },
+    {
+      "skill": "Cooking",
+      "file": "cooking.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Cooking_icon.png?a0156",
+      "width": 19,
+      "height": 21,
+      "sha256": "818ae16d632dc18ca8e8592511f1c27ad7d8c93f7da98637fc6828c51162767d"
+    },
+    {
+      "skill": "Firemaking",
+      "file": "firemaking.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Firemaking_icon.png?45ea0",
+      "width": 23,
+      "height": 23,
+      "sha256": "a3a94d449c92e858806000258cb1f4aca1091cbe161a811606146a22dd5bd63f"
+    },
+    {
+      "skill": "Woodcutting",
+      "file": "woodcutting.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Woodcutting_icon.png?6ead4",
+      "width": 18,
+      "height": 22,
+      "sha256": "1da03c900c253b420d65688a80dd974f4e37b0da25a34603483a2ff19fac5462"
+    },
+    {
+      "skill": "Agility",
+      "file": "agility.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
+      "width": 25,
+      "height": 25,
+      "sha256": "8d6bc1503c50a914913affce9cb71f824ab64d3797c30a150a2f10bdd66d31cd"
+    },
+    {
+      "skill": "Herblore",
+      "file": "herblore.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Herblore_icon.png?ffa9e",
+      "width": 25,
+      "height": 17,
+      "sha256": "80675995ba6ef164d763e4961a6a61880e9d9c6b35cb0cca8100b913bf0e683f"
+    },
+    {
+      "skill": "Thieving",
+      "file": "thieving.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Thieving_icon.png?973fe",
+      "width": 25,
+      "height": 25,
+      "sha256": "45edfa33ab53b1484c1becad93564ae5edefbf0e5edc965e6cc1f4e1b4f08d05"
+    },
+    {
+      "skill": "Fletching",
+      "file": "fletching.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Fletching_icon.png?15cda",
+      "width": 25,
+      "height": 25,
+      "sha256": "ff506613c0b95014668b71424422ff9c19f0804061b69cc2ec2d209f0cca72cf"
+    },
+    {
+      "skill": "Slayer",
+      "file": "slayer.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Slayer_icon.png?cd34f",
+      "width": 23,
+      "height": 24,
+      "sha256": "ae1fbab5e1a60e8e102a014a10e6bd2f9f3d80d504eaa802fa1615773fa34ac8"
+    },
+    {
+      "skill": "Farming",
+      "file": "farming.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Farming_icon.png?558fa",
+      "width": 25,
+      "height": 23,
+      "sha256": "71edf3fedbf360b26d1bdd34913d787145ae22271026b5b583018977a1016ff0"
+    },
+    {
+      "skill": "Construction",
+      "file": "construction.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Construction_icon.png?f9bf7",
+      "width": 25,
+      "height": 25,
+      "sha256": "e35396cd9d60edc4fb68eff3229456c81e1f1ee25b57eed8357b4ba0ca8fa359"
+    },
+    {
+      "skill": "Hunter",
+      "file": "hunter.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Hunter_icon.png?8762f",
+      "width": 22,
+      "height": 23,
+      "sha256": "2cf0cbaacdd54af5f5231682e79ab187677c9566270c1d41fbd44579bb73bd43"
+    },
+    {
+      "skill": "Sailing",
+      "file": "sailing.png",
+      "sourceUrl": "https://oldschool.runescape.wiki/images/Sailing_icon.png?ebfec",
+      "width": 23,
+      "height": 23,
+      "sha256": "a72b62176592246c3404efa217d9c4aa7fc03d5b8be2a91aa23c39a1673d9f83"
+    }
+  ]
+}
