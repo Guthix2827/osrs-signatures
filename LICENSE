@@ -1,21 +1,23 @@
-MIT License
+Copyright © 2026. All rights reserved.
 
-Copyright (c) 2026 Code Adventures
+OSRS Signatures is source-available for educational, portfolio,
+review, and security-audit purposes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is granted to view and study the source code.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You may not, without prior written permission from the copyright holder:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- copy or reproduce substantial portions of the source code;
+- redistribute the source code;
+- modify and redistribute the source code;
+- use the source code as the basis of another application or service;
+- host, deploy, sell, sublicense, or commercially exploit this software;
+- publish a substantially similar derivative project based on this code.
+
+Small code excerpts may be referenced for educational or review purposes
+where permitted by applicable law.
+
+This software is provided "as is", without warranty of any kind.
+
+This repository is source-available and is not open-source software as
+defined by the Open Source Initiative.
